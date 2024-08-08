@@ -1,6 +1,24 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.set_page_config(
+    
+    page_title= "Saudi Arabia Used Cars",
+    page_icon= "🚗",
+)
+
+
+
+st.title("Where and What to Buy?")
+st.markdown("""**The Best Cars in Saudi Arabia """)
+st.markdown("---")
+
+
+# Uploading and displaying the image
+st.image("flower.jpg", caption="Picture 1", use_column_width=True)
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "gjnngiunesgsusg"
+)
+
+st.write(
+    ""
 )
